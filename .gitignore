@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data
+data/raw/*
+data/processed/*
+
+# Keep empty data folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Power BI temporary files
+*.tmp
